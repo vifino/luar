@@ -7,7 +7,7 @@ package main
 import (
 	"fmt"
 	"github.com/GeertJohan/go.linenoise"
-	"github.com/stevedonovan/luar"
+	"github.com/vifino/luar"
 	"os"
 	"strings"
 )

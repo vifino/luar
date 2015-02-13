@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-import "github.com/stevedonovan/luar"
+import "github.com/vifino/luar"
 
 const test = `
 for i = 1,10 do

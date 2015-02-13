@@ -3,14 +3,15 @@
 luar is designed to make using Lua from Go more convenient.
 
 Direct bindings to Lua already exist - luago has about 16
-forks, and I'm using Alessandro Arzilli's [up-to-date fork](https://github.com/aarzilli/golua) which
+forks, and I'm using my [up-to-date fork](https://github.com/vifino/golua) of Alessandro Arzilli's [up-to-date 
+fork](https://github.com/aarzilli/golua) which
 does not use makefiles and simply requires that pkg-config exists
 and there is a lua5.1 package.  So on Debian/Ubuntu it is
 directly go-gettable if the Lua package is installed.
 
 As a consequence, luar is also go-gettable.
 
-    go get github.com/stevedonovan/luar
+    go get github.com/vifino/luar
 
 However, pkg-config is not universal, and Lua 5.1 may not
 be available as a lua5.1 package. However, cgo does not make any
@@ -42,7 +43,7 @@ The first convenience is that ordinary Go functions may be registered directly:
 package main
 
 import "fmt"
-import "github.com/stevedonovan/luar"
+import "github.com/vifino/luar"
 
 const test = `
 for i = 1,10 do
@@ -71,7 +72,7 @@ package main
 
 import "fmt"
 import "strconv"
-import "github.com/stevedonovan/luar"
+import "github.com/vifino/luar"
 
 func GoFun (args []int) (res map[string]int) {
     res = make(map[string]int)

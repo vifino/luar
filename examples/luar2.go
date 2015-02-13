@@ -3,7 +3,7 @@ package main
 import "fmt"
 import "strconv"
 import "os"
-import "github.com/stevedonovan/luar"
+import "github.com/vifino/luar"
 
 func GoFun(args []int) (res map[string]int) {
 	res = make(map[string]int)

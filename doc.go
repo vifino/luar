@@ -1,13 +1,13 @@
 /*
    luar provides a more convenient way to access Lua from Go, using
-   Alessandro Arzilli's  golua (https://github.com/aarzilli/golua).
+   Alessandro Arzilli's  golua (https://github.com/vifino/golua).
    Plain Go functions can be registered with luar and they will be called by reflection;
    methods on Go structs likewise.
 
     package main
 
    import "fmt"
-   import "github.com/stevedonovan/luar"
+   import "github.com/vifino/luar"
 
    type MyStruct struct {
      Name string

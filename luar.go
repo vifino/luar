@@ -2,7 +2,7 @@
 //
 package luar
 
-import lua "github.com/aarzilli/golua/lua"
+import lua "github.com/vifino/golua/lua"
 import "strings"
 import "reflect"
 import "unsafe"

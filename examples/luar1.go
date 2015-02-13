@@ -5,7 +5,7 @@ import "fmt"
 import "os"
 import "strings"
 import "runtime"
-import "github.com/stevedonovan/luar"
+import "github.com/vifino/luar"
 
 func quit(err error) {
 	fmt.Println("Error:", err)

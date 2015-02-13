@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/stevedonovan/luar"
+	"github.com/vifino/luar"
 )
 
 type MyStruct struct {

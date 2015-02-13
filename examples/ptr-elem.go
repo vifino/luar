@@ -3,7 +3,7 @@
 package main
 
 import "fmt"
-import "github.com/stevedonovan/luar"
+import "github.com/vifino/luar"
 
 type T struct {
 	A *int32
