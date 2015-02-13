@@ -100,7 +100,8 @@ func main() {
 	register()
 
 	fmt.Println("luar 1.2 Copyright (C) 2013-2014 Steve Donovan")
-	fmt.Println("Lua 5.1.4  Copyright (C) 1994-2008 Lua.org, PUC-Rio")
+	//fmt.Println("Lua 5.1.4  Copyright (C) 1994-2008 Lua.org, PUC-Rio")
+	L.DoString(`print(jit.version)`)
 
 	prompt := LUA_PROMPT1
 	code := ""
